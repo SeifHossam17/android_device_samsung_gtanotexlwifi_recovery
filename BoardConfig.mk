@@ -37,6 +37,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/gtanotexlwifi/include
 # 000RU = recovery kernel, 000KU = system kernel
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board SRPPG02A000RU
 BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/gtanotexlwifi/mkbootimg.mk
+LZMA_RAMDISK_TARGETS := recovery
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 33554432
