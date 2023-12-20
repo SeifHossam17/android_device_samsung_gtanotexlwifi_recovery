@@ -66,3 +66,10 @@ TW_INCLUDE_CRYPTO := false
 TW_INCLUDE_NTFS_3G := true
 TW_NO_EXFAT_FUSE := true
 TW_EXTRA_LANGUAGES := true
+
+# SHRP Flags
+SHRP_PATH := device/samsung/gtanotexlwifi
+SHRP_MAINTAINER := SeifHecker2099
+SHRP_DEVICE_CODE := gtanotexlwifi
+SHRP_DARK := true
+SHRP_EDL_MODE := 0
